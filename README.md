@@ -2,10 +2,7 @@
 
 > **Real-time DeFi arbitrage detection system monitoring QuickSwap vs SushiSwap on Polygon blockchain**
 
-![Rust](https://img.shields.io/badge/Language-Rust-orange)
-![React](https://img.shields.io/badge/Frontend-React-blue)
-![Blockchain](https://img.shields.io/badge/Blockchain-Polygon-8247E5)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
 
 ## **Project Overview**
 
