@@ -1,0 +1,22 @@
+[network]
+rpc_url = "https://polygon-rpc.com"
+chain_id = 137
+
+[dex]
+quickswap_router = "0xa5E0829CaCED8fFDD4De3c43696c57F7D7A678ff"
+sushiswap_router = "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+
+[tokens]
+weth = "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619"
+usdc = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+
+[trading]
+trade_amount_wei = "1000000000000000000"  # 1 WETH in wei
+min_profit_usdc = "5000000"               # 5 USDC (6 decimals)
+gas_estimate_usdc = "1000000"             # 1 USDC gas cost estimate
+
+[monitoring]
+check_interval_seconds = 10
+
+[database]
+url = "sqlite:arbitrage_opportunities.db"

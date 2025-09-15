@@ -1,0 +1,26 @@
+# Rust
+target/
+**/*.rs.bk
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+*.jsonl
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
